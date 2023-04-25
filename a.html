@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input>
+<button onclick="localStorage.setItem('save', document.querySelector('input').value)">Save</button>
+<button onclick="document.querySelector('input').value = localStorage.getItem('save')">Load</button>
+</body>
+</html>
